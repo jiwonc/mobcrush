@@ -167,6 +167,9 @@ a.button span {
 #mclogo {
 	font-family:Menlo,Courier;
 	font-size:14px;
+	background:none;
+	background-color:transparent;
+	color:#303030;
 }
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
