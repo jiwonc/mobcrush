@@ -14,8 +14,8 @@ Version 0.1a1
 
 Known Issues:
 - Video orientation is completely dependent on OpenGL ES context orientation
-- No mic capture [ to be implemented ]
-- No camera capture [ to be implemented ]
+- No mic capture (*to be implemented*)
+- No camera capture  (*to be implemented*)
 - Audio and Video may not stay synchronized correctly
 - 8-bit audio will not behave correctly
-- No OpenAL or AVAudioPlayer compatibility [ to be implemented ] 
+- No OpenAL or AVAudioPlayer compatibility (*to be implemented*)
