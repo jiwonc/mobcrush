@@ -42,16 +42,15 @@
       <h2>Usage</h2>
       [todo: add library requirements: -lc++, OpenGLES, CoreVideo, AVFoundation, AudioToolbox, QuartzCore]
       <pre><code>
-        
-            [MobCrush start]; // start mobcrush
+[MobCrush start]; // start mobcrush
             
-            // To connect to an RTMP server...
-            [MobCrush connectWithSettings:@{MCVideoBitrateKey:@(500000),
-                                    MCVideoWidthKey: @([UIScreen mainScreen].bounds.size.height),
-                                    MCVideoHeightKey: @([UIScreen mainScreen].bounds.size.width),
-                                    MCVideoFramerateKey: @(30),
-                                    MCRTMPServerStreamKey: _sTwitchStreamKey, // Twitch.tv stream eky
-                                    MCRTMPServerURIKey: @"rtmp://live-lax.twitch.tv:1935/app"}
+// To connect to an RTMP server...
+[MobCrush connectWithSettings:@{MCVideoBitrateKey:@(500000),
+                                MCVideoWidthKey: @([UIScreen mainScreen].bounds.size.height),
+                                MCVideoHeightKey: @([UIScreen mainScreen].bounds.size.width),
+                                MCVideoFramerateKey: @(30),
+                                MCRTMPServerStreamKey: _sTwitchStreamKey, // Twitch.tv stream eky
+                                MCRTMPServerURIKey: @"rtmp://live-lax.twitch.tv:1935/app"}
                             error:&error];
       </code></pre>
     </section>
