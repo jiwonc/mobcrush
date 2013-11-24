@@ -164,7 +164,10 @@ a.button span {
 #view-on-github {
   margin-right: 0;
 }
-
+#mclogo {
+	font-family:Menlo,Courier;
+	font-size:14px;
+}
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
@@ -177,7 +180,6 @@ code {
   border: solid 1px #ddd;
   padding: 0 3px;
 }
-
 pre {
   padding: 20px;
   background: #303030;
