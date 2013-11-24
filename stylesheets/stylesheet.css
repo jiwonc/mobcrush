@@ -164,13 +164,7 @@ a.button span {
 #view-on-github {
   margin-right: 0;
 }
-#mclogo {
-	font-family:Menlo,Courier;
-	font-size:14px;
-	background:none;
-	background-color:transparent;
-	color:#303030;
-}
+
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   color: #222;
