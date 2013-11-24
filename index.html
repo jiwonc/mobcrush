@@ -38,6 +38,23 @@
 
 <p>iOS SDK to facilitate game streaming to sites such as uStream, Twitch, LiveStream, etc.</p>
         </section>
+    <section id="usage">
+      <h2>Usage</h2>
+      [todo: add library requirements: -lc++, OpenGLES, CoreVideo, AVFoundation, AudioToolbox, QuartzCore]
+      <pre><code>
+        
+            [MobCrush start]; // start mobcrush
+            
+            // To connect to an RTMP server...
+            [MobCrush connectWithSettings:@{MCVideoBitrateKey:@(500000),
+                                    MCVideoWidthKey: @([UIScreen mainScreen].bounds.size.height),
+                                    MCVideoHeightKey: @([UIScreen mainScreen].bounds.size.width),
+                                    MCVideoFramerateKey: @(30),
+                                    MCRTMPServerStreamKey: _sTwitchStreamKey, // Twitch.tv stream eky
+                                    MCRTMPServerURIKey: @"rtmp://live-lax.twitch.tv:1935/app"}
+                            error:&error];
+      </code></pre>
+    </section>
 
         <footer>
           mobcrush is maintained by <a href="https://github.com/jamesghurley">jamesghurley</a><br>
