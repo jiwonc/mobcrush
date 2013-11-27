@@ -20,6 +20,20 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>mobcrush by jamesghurley</title>
+    
+	<script type="text/javascript">
+	function trackOutboundLink(link, category, action) { 
+ 
+		try { 
+			_gaq.push(['_trackEvent', category , action]); 
+		} catch(err){}
+ 
+		setTimeout(function() {
+			document.location.href = link.href;
+		}, 100);
+	}
+	</script>
+
   </head>
 
   <body>
@@ -38,8 +52,8 @@
         </header>
 
         <section id="downloads" class="clearfix" style="width:66%; margin: 0 auto;text-align:left;">
-          <a href="https://bitbucket.org/jgh/mobcrush_pub/downloads/mobcrush-0.1a1.zip" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/jamesghurley/mobcrush" id="view-on-github" class="button"><span>View on GitHub</span></a>
+          <a href="https://bitbucket.org/jgh/mobcrush_pub/downloads/mobcrush-0.1a1.zip"  onClick="trackOutboundLink(this, 'Outbound Links', 'Download');" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/jamesghurley/mobcrush" id="view-on-github" onClick="trackOutboundLink(this, 'Outbound Links', 'ViewOnGithub');" class="button"><span>View on GitHub</span></a>
         </section>
 </div>
         <hr>
