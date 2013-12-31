@@ -1,3 +1,12 @@
+Version 0.1a2
+----
+
+- Stability enhancements thanks to moving from prototype code to an architecture more suitable to build a product with.
+- Audio and video will now remain synchronized
+- Can now resample 8, 16, 24, and 32-bit audio.
+- Can now resample stereo or mono audio.
+
+
 Version 0.1a1
 ----
 
