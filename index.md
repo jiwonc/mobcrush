@@ -2,6 +2,13 @@
 layout: index
 ---
 
+Version 0.2a3
+----
+
+- You can now enable and disable microphone capture
+- You can now independently control the game gain and microphone gain
+- RTMP timestamps are now assured to be monotonic
+
 
 Version 0.1a2
 ----
