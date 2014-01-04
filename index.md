@@ -38,6 +38,7 @@ Target 1.0 Features
 - Microphone Capture ✓
 - Audio Mixing/Resampling ✓
 - Camera Capture
+- Game logo/watermark
 - Video layer compositing ✓
 - H.264 Hardware-based Encode ✓
 - AAC Hardware-based Encode ✓
