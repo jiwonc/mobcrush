@@ -24,10 +24,16 @@ Version 0.1a1
 - Captures OpenGL ES context
 - Streams audio and video
 
-Known Issues:
-- Video orientation is completely dependent on OpenGL ES context orientation
-- No mic capture  -> (*to be implemented*)
-- No camera capture -> (*to be implemented*)
-- Audio and Video may not stay synchronized correctly
-- 8-bit audio will not behave correctly
-- No OpenAL or AVAudioPlayer compatibility -> (*to be implemented*)
+Target 1.0 Features
+----
+
+- OpenGL ES Capture ✓
+- CoreAudio Capture ✓
+- OpenAL Capture
+- Microphone Capture ✓
+- Audio Mixing/Resampling ✓
+- Camera Capture
+- Video layer compositing ✓
+- H.264 Hardware-based Encode ✓
+- AAC Hardware-based Encode ✓
+- RTMP Publish/Broadcast ✓
