@@ -1,3 +1,11 @@
+Version 0.2a3
+----
+
+- You can now enable and disable microphone capture
+- You can now independently control the game gain and microphone gain
+- RTMP timestamps are now assured to be monotonic
+
+
 Version 0.1a2
 ----
 
@@ -5,7 +13,6 @@ Version 0.1a2
 - Audio and video will now remain synchronized
 - Can now resample 8, 16, 24, and 32-bit audio.
 - Can now resample stereo or mono audio.
-
 
 
 Version 0.1a1
