@@ -4,6 +4,7 @@ layout: index
 
 Version 0.2a3
 ----
+*Jan. 3, 2014*
 
 - You can now enable and disable microphone capture
 - You can now independently control the game gain and microphone gain
@@ -12,6 +13,7 @@ Version 0.2a3
 
 Version 0.1a2
 ----
+*Dec. 30, 2013*
 
 - Stability enhancements thanks to moving from prototype code to an architecture more suitable to build a product with.
 - Audio and video will now remain synchronized
@@ -21,13 +23,13 @@ Version 0.1a2
 
 Version 0.1a1
 ----
+*Nov. 24, 2013*
 
 - First version, Proof of Concept.
 - Will connect to RTMP service.
 - Captures Audio Units output to speaker
 - Captures OpenGL ES context
 - Streams audio and video
-
 
 Target 1.0 Features
 ----
