@@ -2,6 +2,15 @@
 layout: index
 ---
 
+Version 0.2a4
+----
+*Jan. 6, 2014*
+
+- Fixes a bug where the H.264 encoder instance would occasionally not start
+- Cleanup API a bit
+- Adds a new C API for projects not using Objective C.
+
+
 Version 0.2a3
 ----
 *Jan. 3, 2014*
