@@ -2,6 +2,13 @@
 layout: index
 ---
 
+Version 0.3a5
+----
+*Jan. 8, 2014*
+
+- You can now capture video from the front-facing camera and it will be composited into the outgoing RTMP stream.
+- API Cleanup / Documentation
+
 Version 0.2a4
 ----
 *Jan. 6, 2014*
@@ -48,7 +55,7 @@ Target 1.0 Features
 - OpenAL Capture
 - Microphone Capture ✓
 - Audio Mixing/Resampling ✓
-- Camera Capture
+- Camera Capture ✓
 - Game logo/watermark
 - Video layer compositing ✓
 - H.264 Hardware-based Encode ✓
