@@ -2,6 +2,14 @@
 layout: index
 ---
 
+Version 0.3a6
+----
+*Jan. 9, 2014*
+
+- RGB565 Renderbuffers now work correctly.
+- Improved GLES Render Time.
+- This is the last alpha release.  To sign up for Beta, please e-mail james@mobcrush.com. 
+
 Version 0.3a5
 ----
 *Jan. 8, 2014*
