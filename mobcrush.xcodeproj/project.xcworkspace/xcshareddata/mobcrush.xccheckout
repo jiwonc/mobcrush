@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC22AD61-26D5-4C82-BD4F-F608407C35DD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mobcrush</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33DA8F21-F15F-44EE-9770-82318EF39B81</key>
+		<string>ssh://bitbucket.org/rastermm/mobcrush.git</string>
+		<key>B526AA60-9FA9-497C-88B5-9033DEEE00DD</key>
+		<string>ssh://bitbucket.org/rastermm/videocore.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mobcrush.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33DA8F21-F15F-44EE-9770-82318EF39B81</key>
+		<string>../..</string>
+		<key>B526AA60-9FA9-497C-88B5-9033DEEE00DD</key>
+		<string>../../videocore</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://bitbucket.org/rastermm/mobcrush.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33DA8F21-F15F-44EE-9770-82318EF39B81</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33DA8F21-F15F-44EE-9770-82318EF39B81</string>
+			<key>IDESourceControlWCCName</key>
+			<string>mobcrush</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B526AA60-9FA9-497C-88B5-9033DEEE00DD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>videocore</string>
+		</dict>
+	</array>
+</dict>
+</plist>

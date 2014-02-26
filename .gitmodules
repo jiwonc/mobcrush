@@ -1,0 +1,3 @@
+[submodule "VideoCore"]
+	path = VideoCore
+	url = git@github.com:jamesghurley/VideoCore.git
