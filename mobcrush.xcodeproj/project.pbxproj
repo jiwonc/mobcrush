@@ -13,7 +13,6 @@
 		1A501B2F179B1AC1009D1CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A501B2E179B1AC1009D1CE1 /* Foundation.framework */; };
 		1A501B36179B1AC2009D1CE1 /* MobCrush.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A501B35179B1AC2009D1CE1 /* MobCrush.mm */; };
 		1A501B3E179B1AC2009D1CE1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A501B3D179B1AC2009D1CE1 /* SenTestingKit.framework */; };
-		1A501B40179B1AC2009D1CE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A501B3F179B1AC2009D1CE1 /* UIKit.framework */; };
 		1A501B41179B1AC2009D1CE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A501B2E179B1AC1009D1CE1 /* Foundation.framework */; };
 		1A501B44179B1AC2009D1CE1 /* libmobcrush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A501B2B179B1AC1009D1CE1 /* libmobcrush.a */; };
 		1A501B4A179B1AC2009D1CE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A501B48179B1AC2009D1CE1 /* InfoPlist.strings */; };
@@ -70,8 +69,6 @@
 /* Begin PBXFileReference section */
 		1A0B9B4B179CBA4F00C1A089 /* MobCrush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobCrush.h; sourceTree = "<group>"; };
 		1A14F2F7184285E800E05B89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A14F2FB1842E29000E05B89 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
-		1A14F2FC1842E29000E05B89 /* logo.xcf */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo.xcf; sourceTree = "<group>"; };
 		1A45B588179DADDE004DEB11 /* MCALCapture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MCALCapture.mm; sourceTree = "<group>"; };
 		1A45B589179DADDE004DEB11 /* MCALCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCALCapture.h; sourceTree = "<group>"; };
 		1A45B598179DFEEA004DEB11 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
@@ -81,7 +78,6 @@
 		1A501B35179B1AC2009D1CE1 /* MobCrush.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = MobCrush.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		1A501B3C179B1AC2009D1CE1 /* mobcrushTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mobcrushTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A501B3D179B1AC2009D1CE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1A501B3F179B1AC2009D1CE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1A501B47179B1AC2009D1CE1 /* mobcrushTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mobcrushTests-Info.plist"; sourceTree = "<group>"; };
 		1A501B49179B1AC2009D1CE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1A501B4B179B1AC2009D1CE1 /* mobcrushTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mobcrushTests.h; sourceTree = "<group>"; };
@@ -101,7 +97,6 @@
 		7242CA2F189C389E00ADD9B1 /* MP4Multiplexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MP4Multiplexer.h; sourceTree = "<group>"; };
 		72588ABC1851256E00E22709 /* MobcrushSession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = MobcrushSession.cpp; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		72588ABD1851256E00E22709 /* MobcrushSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobcrushSession.h; sourceTree = SOURCE_ROOT; };
-		72B366A818873E9600C8AF0F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		72B366AA18873E9600C8AF0F /* GenericAudioMixer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = GenericAudioMixer.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		72B366AB18873E9600C8AF0F /* GenericAudioMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericAudioMixer.h; sourceTree = "<group>"; };
 		72B366AC18873E9600C8AF0F /* IAudioMixer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = IAudioMixer.hpp; sourceTree = "<group>"; };
@@ -164,7 +159,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A501B3E179B1AC2009D1CE1 /* SenTestingKit.framework in Frameworks */,
-				1A501B40179B1AC2009D1CE1 /* UIKit.framework in Frameworks */,
 				1A501B41179B1AC2009D1CE1 /* Foundation.framework in Frameworks */,
 				1A501B44179B1AC2009D1CE1 /* libmobcrush.a in Frameworks */,
 			);
@@ -183,21 +177,11 @@
 			path = MobCrush;
 			sourceTree = "<group>";
 		};
-		1A14F2FA1842E29000E05B89 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				1A14F2FB1842E29000E05B89 /* logo.png */,
-				1A14F2FC1842E29000E05B89 /* logo.xcf */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
 		1A501B22179B1AC1009D1CE1 = {
 			isa = PBXGroup;
 			children = (
 				72CB75C818ABFC0000095AC2 /* LICENSE */,
 				72B366A718873E9600C8AF0F /* videocore */,
-				1A14F2FA1842E29000E05B89 /* assets */,
 				1A45B598179DFEEA004DEB11 /* readme.txt */,
 				1A85F224179C5A9800FB3C97 /* OpenAL.framework */,
 				1A501B30179B1AC1009D1CE1 /* mobcrush */,
@@ -225,7 +209,6 @@
 				1A85F21C179C589B00FB3C97 /* AVFoundation.framework */,
 				1A501B2E179B1AC1009D1CE1 /* Foundation.framework */,
 				1A501B3D179B1AC2009D1CE1 /* SenTestingKit.framework */,
-				1A501B3F179B1AC2009D1CE1 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,7 +277,6 @@
 		72B366A718873E9600C8AF0F /* videocore */ = {
 			isa = PBXGroup;
 			children = (
-				72B366A818873E9600C8AF0F /* .gitignore */,
 				72B366A918873E9600C8AF0F /* mixers */,
 				72B366B218873E9600C8AF0F /* rtmp */,
 				72B366B518873E9700C8AF0F /* sources */,
