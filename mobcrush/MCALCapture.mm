@@ -33,7 +33,7 @@
  alDeleteBuffers
  alcMakeContextCurrent
 */
-extern void *(*g_dls)(void*, const char*);
+
 
 typedef struct {
     std::vector<char> data;
@@ -47,7 +47,7 @@ extern "C" {
     void alBufferData(ALuint bufferName, ALenum format, const ALvoid* data, ALsizei size, ALsizei frequency) {
         typedef void (*albd)(ALuint, ALenum, const ALvoid*, ALsizei, ALsizei);
         static albd alBufferData_IMP = NULL;
-        if(!alBufferData_IMP) alBufferData_IMP = (albd)g_dls(RTLD_NEXT, "alBufferData");
+        if(!alBufferData_IMP) alBufferData_IMP = (albd)dlsym(RTLD_NEXT, "alBufferData");
         
         s_bufferMap[bufferName].data.resize(size);
         memcpy(&s_bufferMap[bufferName].data[0], data, size);
@@ -60,7 +60,7 @@ extern "C" {
     void alSourcef(ALuint source, ALenum param, ALfloat value) {
         typedef void (*alsf)(ALuint, ALenum, ALfloat);
         static alsf alSourcef_IMP = NULL;
-        if(!alSourcef_IMP) alSourcef_IMP = (alsf)g_dls(RTLD_NEXT, "alSourcef");
+        if(!alSourcef_IMP) alSourcef_IMP = (alsf)dlsym(RTLD_NEXT, "alSourcef");
         
         return alSourcef_IMP(source,param,value);
     }

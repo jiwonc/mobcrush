@@ -42,7 +42,6 @@ const NSString* MCConnectionStateChangedNotification = @"MCConnectionStateChange
 
 static MobCrush* s_mobCrush = NULL;
 
-void *(*g_dls)(void*, const char*) = dlsym;
 
 static mobcrush_connection_callback_t s_callback = NULL;
 
