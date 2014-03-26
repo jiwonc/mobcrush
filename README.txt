@@ -15,6 +15,18 @@ git submodule init
 git submodule update --init --recursive
 
 
+Once you build the Mobcrush project and import libmobcrush.a and Mobcrush.h into your project, you will need to link
+the following frameworks:
+
+- AVFoundation.framework
+- AudioToolbox.framework
+- CoreGraphics.framework
+- QuartzCore.framework
+- CoreVideo.framework
+
+Additionally if your project isn't using C++11, you'll need to add the following linker flag to the build settings:
+-lc++
+
 =====
 
   ________________________________________________________________
