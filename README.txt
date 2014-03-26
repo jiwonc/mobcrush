@@ -9,7 +9,7 @@ iOS SDK to facilitate game streaming to sites such as uStream, Twitch, Hitbox.tv
 Setup
 =====
 
-git clone git@bitbucket.org:rastermm/mobcrush.git
+git clone git@github.com:jamesghurley/mobcrush.git
 cd mobcrush
 git submodule init
 git submodule update --init --recursive
